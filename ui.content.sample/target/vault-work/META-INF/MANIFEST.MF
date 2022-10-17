@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.4
+Build-Jdk-Spec: 11
+Implementation-Title: WKND Sites Project - UI sample content
+Implementation-Version: 2.1.1-SNAPSHOT
+Implementation-Vendor: Adobe
+Content-Package-Type: content
+Content-Package-Id: com.adobe.aem.guides:aem-guides-wknd.ui.content.samp
+ le:2.1.1-SNAPSHOT
+Content-Package-Description: Sample Content for WKND Sites Project
+Content-Package-Dependencies: com.adobe.aem.guides:aem-guides-wknd.ui.co
+ ntent:2.1.1-SNAPSHOT,com.adobe.aem.guides.aem-guides-wknd-shared:aem-gu
+ ides-wknd-shared.ui.content:2.1.0
+Content-Package-Dependencies-Locations: com.adobe.aem.guides:aem-guides-
+ wknd.ui.content:2.1.1-SNAPSHOT=maven:com.adobe.aem.guides:aem-guides-wk
+ nd.ui.content:2.1.1-SNAPSHOT:zip,com.adobe.aem.guides.aem-guides-wknd-s
+ hared:aem-guides-wknd-shared.ui.content:2.1.0=maven:com.adobe.aem.guide
+ s:aem-guides-wknd-shared.ui.content:2.1.0:zip
+Content-Package-Roots: /conf/wknd/settings/cloudconfigs,/conf/wknd/setti
+ ngs/cloudsettings,/conf/wknd/settings/wcm,/content/dam/wknd,/content/ex
+ perience-fragments/wknd,/content/wknd,/home/groups/wknd,/home/users/wkn
+ d
+
